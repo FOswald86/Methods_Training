@@ -6,8 +6,7 @@ public class Methods {
         while ( true ) {
             System.out.println( "waiting for input ( new or exit ) : " );
             Scanner scanner = new Scanner( System.in );
-            String input = scanner.nextLine();
-            handleInput( input );
+            handleInput( scanner.nextLine() );
         }
     }
 
